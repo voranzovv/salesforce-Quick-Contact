@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <aura:attribute name="name" type="String"/>
+    <input type="text" placeholder='enter your name' />
+    test
+    <ui:inputText label='name' aura:Id='name' placeholder='auran ui test'/>
+    <ui:button aura:id="buttonId" label="ok" press="{!c.sayHello}"/>
+    My name is: {!v.name}
+</aura:component>	
